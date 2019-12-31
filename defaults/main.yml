@@ -215,8 +215,9 @@ ubuntu1604cis_rule_5_4_1_4: true
 ubuntu1604cis_rule_5_4_2: true
 ubuntu1604cis_rule_5_4_3: true
 ubuntu1604cis_rule_5_4_4: true
+ubuntu1604cis_rule_5_4_5: true
 ubuntu1604cis_rule_5_5: true
-ubuntu1604cis_rule_5_6: false
+ubuntu1604cis_rule_5_6: true
 
 # Section 6 rules
 ubuntu1604cis_rule_6_1_1: true
@@ -297,7 +298,7 @@ ubuntu1604cis_set_boot_pass: false
 ubuntu1604cis_is_router: false
 
 # IPv6 required
-ubuntu1604cis_ipv6_required: true
+ubuntu1604cis_ipv6_required: false
 
 # AIDE
 ubuntu1604cis_config_aide: true
@@ -427,4 +428,4 @@ chrony_config_file:
   Debian: /etc/chrony/chrony.conf
 
 ### Firewall
-ubuntu1604cis_setup_firewall: false
+ubuntu1604cis_setup_firewall: true

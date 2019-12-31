@@ -326,7 +326,7 @@
       executable: /bin/bash
   register: var_mounted
   changed_when: false
-  failed_when: false
+  ignore_errors: true
   when:
       - ubuntu1604cis_rule_1_1_5
   tags:
@@ -344,7 +344,7 @@
       executable: /bin/bash
   register: var_tmp_mounted
   changed_when: false
-  failed_when: false
+  ignore_errors: true
   when:
       - ubuntu1604cis_rule_1_1_6
   tags:
@@ -384,7 +384,7 @@
       executable: /bin/bash
   register: var_log_mounted
   changed_when: false
-  failed_when: false
+  ignore_errors: true
   when:
       - ubuntu1604cis_rule_1_1_10
   tags:
@@ -402,7 +402,7 @@
       executable: /bin/bash
   register: var_log_audit_mounted
   changed_when: false
-  failed_when: false
+  ignore_errors: true
   when:
       - ubuntu1604cis_rule_1_1_11
   tags:
@@ -420,7 +420,7 @@
       executable: /bin/bash
   register: home_mounted
   changed_when: false
-  failed_when: false
+  ignore_errors: true
   when:
       - ubuntu1604cis_rule_1_1_12
   tags:

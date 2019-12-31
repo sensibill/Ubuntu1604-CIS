@@ -91,7 +91,7 @@ ubuntu1604cis_net_snmp: false
 
 
 ##### IPv6 required
-`ubuntu1604cis_ipv6_required: true`  
+`ubuntu1604cis_ipv6_required: false`  
 
 
 ##### AIDE

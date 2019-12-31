@@ -597,6 +597,18 @@
       - rule_5.4.4
       - scored
 
+- name: "NOTSCORED | 5.4.5 | PATCH |  Ensure default user shell timeout is 900 seconds or less"
+  command: /bin/true
+  changed_when: false
+  when:
+      - ubuntu1604cis_rule_5_4_5
+  tags:
+      - level1
+      - patch
+      - rule_5.4.5
+      - notscored
+      - notimplemented
+
 - name: "NOTSCORED | 5.5 | PATCH | Ensure root login is restricted to system console"
   command: /bin/true
   changed_when: false
